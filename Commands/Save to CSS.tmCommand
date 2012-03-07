@@ -10,7 +10,7 @@ CSSFILENAME=`basename "${TM_FILEPATH}" .less`
 CUR_USER=`whoami`
 
 source /Users/$CUR_USER/.profile
-/usr/local/bin/lessc -x "${TM_FILEPATH}" &gt; "${TM_DIRECTORY}/${CSSFILENAME}.css"
+/usr/local/bin/lessc -x "${TM_FILEPATH}" &gt; "${TM_DIRECTORY}/../css/${CSSFILENAME}.css"
 	</string>
 	<key>input</key>
 	<string>document</string>
